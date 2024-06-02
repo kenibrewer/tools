@@ -1,0 +1,25 @@
+_subdirectory: "nf_core"
+_exclude:
+  # Default excludes
+  - "copier.yaml"
+  - "copier.yml"
+  - "~*"
+  -  "*.py[co]"
+  - "__pycache__"
+  - ".git"
+  - ".DS_Store"
+  - ".svn"
+  # Exclude everything except templates
+  - assets
+  - components
+  - gitpod
+  - lint
+  - modules
+  - subworkflows
+  - "*.py"
+  - "tests/**"
+  - "*.md"
+  - "*.cff"
+  - "*.ini"
+  - "*.txt"
+_answers_file: .nf-core-version.yml
